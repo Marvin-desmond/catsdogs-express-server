@@ -1,0 +1,21 @@
+{
+  "name": "nodecatsdogs",
+  "version": "1.0.0",
+  "description": "A NodeJS app for TensorFlowJS model serving for Cats and Dogs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marvin Desmond",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.12.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.3.1",
+    "firebase": "^9.6.6",
+    "glob": "^7.2.0",
+    "jimp": "^0.16.1"
+  },
+  "type": "module"
+}
